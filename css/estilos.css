@@ -1,0 +1,55 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: #ff9aff;
+}
+header{
+    background-color: rgb(80, 78, 197);
+    color: #efefef;
+    padding: 4rem 3rem; 
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+hr{
+    background-color: black;
+    color: black;
+}
+#puntos{color: rgb(47, 172, 114); font-size: 20px;}
+#subtitulo{
+   border-style: outset;
+   border-color: rgb(170, 170, 212);
+   border-radius: 5px;
+   border-width: 5px;
+}
+a:link{
+    
+    color: rgb(47, 151, 165);
+}
+a:visited{
+color: rgb(0, 80, 53)
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: greenyellow;
+}
+ul{
+    background-color: rgb(221, 157, 230) 
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td{
+    border: solid 3px; color: black;
+    padding: 5px;
+    background-color: mediumorchid;
+}
+tr.hover{
+background-color: yellow;
+cursor: pointer;
+}
